@@ -6,6 +6,8 @@
 export const site = {
   name: 'Mugunthan',
   initials: 'M', // add a surname initial here later, e.g. 'MK'
+  logo: `${import.meta.env.BASE_URL}logo.png`,   // file: public/logo.png ('' kudutha M logo varum)
+  logoShowName: true,  // logo-vula peyar irundha false podunga
   title: 'Full Stack Software Developer',
   location: 'India',
   email: 'mugunthanm2k@gmail.com',
